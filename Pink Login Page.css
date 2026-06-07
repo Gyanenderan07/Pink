@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    background: url('assets/pink\ wallpaper\ with\ moon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0,.1);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+    
+.wrapper{
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(60px);
+    box-shadow: 10px 10px 50px rgba(0, 0, 0,.1);
+    color: white;
+    padding: 40px 40px 30px 40px;
+    border-radius: 60px;
+    transform: scale(1.15,1.15);
+}
+
+.wrapper h1{
+    display: flex;
+    transform: translateY(-10px);
+    font-size: 30px;
+    justify-content: center;
+}
+
+.input-box input{
+    font-size: 15px;
+    border-radius: 30px;
+    color: white;
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-color: white;
+    border: 2px solid rgba(255,255,255,.2);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0,.1);
+}
+
+.input-box .bxs-user {
+    position: absolute;
+    top: 31%;
+    right: 59px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.input-box .bxs-lock-alt{
+    position: absolute;
+    top: 46.5%;
+    right: 59px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.remember-forgot{
+    accent-color: rgb(247, 4, 174);
+    display: inline;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+.Forgot{
+    
+    transform: translateY(-22px) translateX(100px);
+    font-size: 14px;
+    padding-left: 50px;
+    text-align: left;
+    color: white;
+}
+
+.Forgot a{
+    color: white;
+    text-decoration: none;
+}
+
+.Forgot a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: -13px;
+    margin-right: 60px;
+    color: rgb(66, 64, 64);
+    font-size: 14px;
+    font-weight: 600;
+    border-color: white;
+    border: 2px solid rgba(255,255,255,.2);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0,.1);
+    cursor: pointer;
+}
+
+.wrapper button:active{
+    border: 1.5px solid hsla(0, 2%, 58%, 0.856);
+}
+
+.wrapper .register-link{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+.register-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.register-link a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
